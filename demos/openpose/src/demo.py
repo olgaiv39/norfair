@@ -38,7 +38,7 @@ class OpenposeDetector:
         config["logging_level"] = 3
         config["output_resolution"] = "-1x-1"
         config["net_resolution"] = "-1x768"
-        config["num_gpu"] = 1
+        config["select-gpu"] = -1
         config["alpha_pose"] = 0.6
         config["render_threshold"] = 0.05
         config["scale_number"] = 1
